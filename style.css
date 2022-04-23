@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://www.timeforkids.com/wp-content/uploads/2019/02/farmcover.jpg');
+
+    background-size: cover;
+  
+}
+
+.container {
+    width: 650px;
+    height: 650px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid white;
+    position: relative;
+    overflow: hidden;
+}
+
+.gun {
+background-image: url('/gun.png');
+width: 82px;
+height: 147px;
+bottom: 0;
+left: 50%;
+position: absolute;
+}
+
+.cow {
+    background-image: url('/cow.png');
+    width: 90px;
+    height: 71px;
+
+    position: absolute;
+}
+
+.bullet {
+    background-image: url('/bullet.png');
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    bottom: 132px;
+left: 53%;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#score {
+    position: absolute;
+    font-size: 140px;
+    color: white;
+    font-weight: bold;
+    left: 30px;
+    background-color: black;
+   
+}
+
+.loader-wrap {
+    width: 500px;
+    border: 4px solid green;
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    left: 490px;
+}
+
+.loader {
+
+  height: 100%;
+    background-color: red;
+
+ 
+    transition: all 3s;
+}
